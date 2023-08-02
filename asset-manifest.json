@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Tarun/static/css/main.ffa1bbf1.css",
+    "main.js": "/Portfolio-Tarun/static/js/main.a227c704.js",
+    "index.html": "/Portfolio-Tarun/index.html",
+    "main.ffa1bbf1.css.map": "/Portfolio-Tarun/static/css/main.ffa1bbf1.css.map",
+    "main.a227c704.js.map": "/Portfolio-Tarun/static/js/main.a227c704.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffa1bbf1.css",
+    "static/js/main.a227c704.js"
+  ]
+}
