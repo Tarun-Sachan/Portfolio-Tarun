@@ -46,13 +46,25 @@ export const Analytics = () => {
               Git
             </button>
             <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
+              MongoDB
+            </button>
+            <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
               Responsive Design
             </button>
             <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
               Github
             </button>
             <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
+              NodeJS
+            </button>
+            <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
+              Express
+            </button>
+            <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
               C++
+            </button>
+            <button className="bg-slate-200 md:text-xl text-sm text-gray-600 p-2 m-3 rounded-md">
+              FireBase
             </button>
           </div>
         </div>

@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-export default function ActionAreaCard() {
+export default function PhotoMemory() {
   const onClickHandler = () => {
     window.open(
       "https://github.com/Tarun-Sachan/photo-memeory-app/tree/main",

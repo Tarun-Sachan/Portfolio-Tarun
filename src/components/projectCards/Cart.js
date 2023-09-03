@@ -5,10 +5,10 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-export default function ExpenseTracker() {
+export default function Cart() {
   const onClickHandler = () => {
     window.open(
-      "https://github.com/Tarun-Sachan/expense-tracker-react",
+      "https://github.com/Tarun-Sachan/reduxToolkit-cart",
       "_blank",
       "noopener,noreferrer"
     );
@@ -19,16 +19,15 @@ export default function ExpenseTracker() {
         <CardMedia
           component="img"
           height="140"
-          image="https://user-images.githubusercontent.com/117214735/218791683-4d92b089-c46c-40fb-944d-e44e8c89543f.png"
-          alt="expense calculator"
+          image="https://user-images.githubusercontent.com/117214735/218793192-c95e7518-6ad7-41c3-8a9f-d23b14961ade.png"
+          alt="Live Weather App"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Expense Tracker
+            Redux Toolkit Cart
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            App is used to track user expense and represent it in list and
-            graphical form. Use can also delete and filter expense.
+            Fully function shopping cart handler using Redux Toolkit to manage states. 
           </Typography>
         </CardContent>
       </CardActionArea>

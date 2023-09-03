@@ -5,6 +5,9 @@ import MoviesCards from "../components/projectCards/MoviesCard";
 import FoodDelivery from "../components/projectCards/FoodDelivery";
 import PhotoMemory from "../components/projectCards/PhotoMemory";
 import AdminDashboard from "../components/projectCards/AdminDashboard";
+import TaskManager from "./projectCards/TaskManager";
+import WhatsappClone from "./projectCards/WhatsappClone";
+import Cart from "./projectCards/Cart";
 const Projects = () => {
   return (
     <div className="w-full py-[10rem] px-2 text-white">
@@ -12,11 +15,16 @@ const Projects = () => {
         PROJECTS
       </h1>
       <p className="text-gray-400">
-        Here you will find some of the personal projects that I
-        created with each project containing its own case study{" "}
+        Here you will find some of the personal projects that I created with
+        each project containing its own case study{" "}
       </p>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 my-10">
+        <WhatsappClone />
         <FoodDelivery />
+        <Cart />
+      </div>
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 my-10">
+        <TaskManager />
         <PhotoMemory />
         <ExpenseTracker />
       </div>
